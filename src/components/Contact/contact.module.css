@@ -1,0 +1,31 @@
+.item {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: grey;
+    color: white;
+    margin-left: 10px;
+    /* box-shadow: 2px 2px 10px white; */
+    transition: background-color 0.3s ease , color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: red;
+    color: black;
+    
+}
