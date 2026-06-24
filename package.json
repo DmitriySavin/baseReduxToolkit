@@ -1,8 +1,8 @@
 {
-  "name": "usestateuseeffect2",
+  "name": "baseReduxToolkit",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/DmitriySavin/usestateuseeffect2.git",
+  "homepage": "https://dmitriysavin.github.io/baseReduxToolkit/",
   "type": "module",
   "scripts": {
     "dev": "vite",
