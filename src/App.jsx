@@ -15,7 +15,7 @@ const App = () => {
   const [filter, setFilter] = useState("");
 
   const dispatch = useDispatch();
-  const initialContacts = useSelector((state) => state.tasks);
+  const initialContacts = useSelector((state) => state.tasks.tasks);
 
   const changeName = (name) => {
     setName(name);
